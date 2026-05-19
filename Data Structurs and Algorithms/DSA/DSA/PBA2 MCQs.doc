@@ -1,0 +1,2581 @@
+﻿
+                <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+                <head>
+                    <meta charset='utf-8'>
+                    <title>Practice</title>
+                    <style>
+                        body { font-family: 'Times New Roman', serif; font-size: 12pt; }
+                        table { border-collapse: collapse; width: 100%; }
+                        td, th { border: 1px solid #ddd; padding: 8px; }
+                        .question-container { margin-bottom: 20px; page-break-inside: avoid; }
+                        .header-badges span { display: inline-block; padding: 4px 8px; margin-right: 5px; border-radius: 4px; font-size: 10pt; background: #eee; border: 1px solid #ccc; }
+                        .complexity-Easy { background-color: #dcfce7; color: #15803d; }
+                        .complexity-Medium { background-color: #fef9c3; color: #a16207; }
+                        .complexity-Hard { background-color: #fee2e2; color: #b91c1c; }
+                    </style>
+                </head>
+                <body>
+            
+            <div style="padding: 20px;">
+                <h1 style="text-align: center; border-bottom: 2px solid #ccc; padding-bottom: 10px;">Practice</h1>
+                
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q1</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Queue Operation Basics</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which operation is used to remove an element from a queue?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Push</p></li><li><p>Pop</p></li><li><p>Dequeue</p></li><li><p>Insert</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Dequeue</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q2</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Front and Rear</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a queue, insertion happens at ___ and deletion happens at ___.</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Front, Front</p></li><li><p>Rear, Rear</p></li><li><p>Rear, Front</p></li><li><p>Front, Rear</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Rear, Front</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q3</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Priority Queue vs Queue</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Main difference between queue and priority queue is</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Size</p></li><li><p>Data type</p></li><li><p>Memory usage</p></li><li><p>Order of deletion</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Order of deletion</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q4</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Queue Empty Condition</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this condition check?</p><pre><code>if(front == -1 || front &gt; rear)</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Queue full</p></li><li><p>Queue empty</p></li><li><p>Queue partially full</p></li><li><p>Circular queue</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Queue empty</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q5</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Circular Queue Index Movement</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the new value of rear?</p><pre><code>#define SIZE 5
+int q[SIZE];
+int front = 3, rear = 3;
+rear = (rear + 1) % SIZE;
+q[rear] = 10;</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>3</p></li><li><p>4</p></li><li><p>0</p></li><li><p>2</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>4</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q6</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Queue State Analysis</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the number of elements in the queue?</p><pre><code>front = 0; rear = -1;
+rear++;
+rear++;
+front++;</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>0</p></li><li><p>1</p></li><li><p>2</p></li><li><p>3</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q7</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Dequeue Output</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output?</p><pre><code>int q[] = {5, 10, 15, 20};
+front = 1;
+printf("%d", q[front++]);</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>10</p></li><li><p>5</p></li><li><p>15</p></li><li><p>20</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>10</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q8</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Linked List Queue Dequeue</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What happens if front was the only node?</p><pre><code>struct node *temp = front;
+front = front-&gt;next;
+free(temp);</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>rear becomes NULL automatically</p></li><li><p>rear still points to freed memory</p><p></p></li><li><p>front becomes NULL but rear unchanged</p></li><li><p>Both front and rear become NULL</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>front becomes NULL but rear unchanged</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q9</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Linear Queue Tracing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output?</p><pre><code>int q[5] = {10, 20, 30, 40, 50};
+int front = 1, rear = 3;
+front++;
+q[rear++] = 60;
+printf("%d %d", front, rear);</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>1 4</p></li><li><p>2 4</p></li><li><p>2 3</p></li><li><p>1 3</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2 4</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q10</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Queue Empty Logic Trap</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output?</p><pre><code>int front = 2, rear = 2;
+front++;
+front++;
+if (front &gt; rear)
+    printf("Empty");
+else
+    printf("Not Empty");</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Empty</p></li><li><p>Not Empty</p></li><li><p>Undefined</p></li><li><p>Runtime Error</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Empty</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q11</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this snippet return for a BST node?</p><pre><code>Node* g(Node* r) {
+  Node* c = r-&gt;left;
+  while(c &amp;&amp; c-&gt;right) c = c-&gt;right;
+  return c;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>In-order Predecessor</p></li><li><p>The minimum leaf</p></li><li><p>In-order Successor</p></li><li><p>The root of the tree</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>In-order Predecessor</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q12</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this C++ snippet return?</p><pre><code>int c(Node* r, int low, int high) {
+  if(!r) return 0;
+  int cnt = (r-&gt;val &gt;= low &amp;&amp; r-&gt;val &lt;= high);
+  return cnt + c(r-&gt;left, low, high) + c(r-&gt;right, low, high);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Nodes within the range [low, high]</p></li><li><p>The sum of values in range</p></li><li><p>Total nodes in the tree</p></li><li><p>The maximum value in range</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Nodes within the range [low, high]</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q13</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the time complexity of this BST search snippet?</p><pre><code>bool s(Node* r, int k) {
+  while(r) {
+    if(r-&gt;val == k) return true;
+    r = (k &lt; r-&gt;val) ? r-&gt;left : r-&gt;right;
+  }
+  return false;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(logN) average, O(N) worst</p></li><li><p>O(N) always</p></li><li><p>O(H²) where H is height</p></li><li><p>O(1) always</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(logN) average, O(N) worst</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q14</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Given the Pre-order traversal of a BST: 15, 10, 12, 20, 18, 25 What is the In-order traversal of this tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>10,15,12,18,25,20</p></li><li><p>25,20,18,15,12,10</p></li><li><p>10,12,15,18,20,25</p></li><li><p>15,10,12,18,20,25</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>10,12,15,18,20,25</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q15</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a Binary Search Tree (BST), what is the time complexity of finding the minimum element in a skewed tree with N nodes?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(1)</p></li><li><p>O(logN)</p></li><li><p>O(N)</p></li><li><p>O(NlogN)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(N)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q16</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which node is the In-order Successor of a node X in a BST if node X has a non-empty right subtree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>The parent of X</p></li><li><p>The leftmost node in the right subtree</p></li><li><p>The rightmost node in the left subtree</p></li><li><p>The right child of X</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The leftmost node in the right subtree</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q17</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this function return for a BST root?</p><pre><code>int m(Node* r) {
+  while(r &amp;&amp; r-&gt;right) r = r-&gt;right;
+  return r-&gt;val;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Total node count</p></li><li><p>The root value</p></li><li><p>The minimum value</p></li><li><p>The maximum value</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The maximum value</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q18</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the result of solve(root, 20) if the root data is 15?</p><pre><code>void solve(Node* r, int k) {
+  if(!r) return;
+  if(r-&gt;val &lt; k) solve(r-&gt;right, k);
+  cout &lt;&lt; r-&gt;val &lt;&lt; " ";
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Prints 15 then searches right</p></li><li><p>Prints 15 after its right subtree</p></li><li><p>Causes a segmentation fault</p></li><li><p>Prints nothing</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Prints 15 after its right subtree</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q19</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In this deletion helper, what happens if r-&gt;left is NULL?</p><pre><code>Node* del(Node* r) {
+  Node* temp = r-&gt;right;
+  delete r;
+  return temp;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Deletes the current node and returns its right child</p></li><li><p>Returns NULL always</p></li><li><p>Deletes the entire right subtree</p></li><li><p>Causes a memory leak</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Deletes the current node and returns its right child</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q20</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Binary search tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the purpose of the following snippet?</p><pre><code>void upd(Node* r) {
+  if(!r) return;
+  upd(r-&gt;left);
+  r-&gt;val += 10;
+  upd(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Breaks the BST property</p></li><li><p>Increments all values by 10</p></li><li><p>Only updates the root</p></li><li><p>Finds nodes greater than 10</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Increments all values by 10</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q21</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Pivot element is used for:</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Merging</p></li><li><p> Searching</p></li><li><p>Partitioning</p></li><li><p> Swapping only</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Partitioning</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q22</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a C++ Quick Sort implementation, the process of rearranging elements around the pivot is called what?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Merging</p></li><li><p>Partitioning</p></li><li><p>Searching</p></li><li><p>Swapping</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Partitioning</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q23</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a C++ implementation of Quick Sort, what is the average time complexity when the pivot divides the array into nearly equal halves?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(n²)</p></li><li><p>O(n log n)</p></li><li><p>O(n)</p></li><li><p>O(log n)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(n log n)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q24</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Quick Sort is based on:</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Greedy</p></li><li><p>Divide and Conquer</p></li><li><p>Dynamic Programming</p><p></p></li><li><p>BFS</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Divide and Conquer</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q25</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>A C++ developer is implementing a sorting algorithm that recursively divides the array into smaller subarrays until each subarray contains a single element, and then combines them in a sorted manner. What is the primary advantage of using this approach?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>It reduces space complexity to O(1)</p><p></p></li><li><p>It ensures O(n log n) time complexity for all cases</p></li><li><p>It avoids recursion completely</p></li><li><p>It works only for small arrays</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>It ensures O(n log n) time complexity for all cases</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q26</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>A programmer observes that Merge Sort requires additional memory to store temporary arrays during merging. What is the space complexity of Merge Sort in C++?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(1)</p></li><li><p>O(log n)</p></li><li><p>O(n)</p></li><li><p>O(n log n)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(n)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q27</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a C++ implementation of Merge Sort, what is the time complexity for sorting an array in all cases (best, average, and worst)?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p style="text-align: left;">O(n²)</p></li><li><p>O(n log n)</p></li><li><p>O(n)</p></li><li><p>O(log n)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(n log n)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q28</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>A C++ program sorts elements by taking one element at a time and inserting it into its correct position in the already sorted portion of the array. Which sorting algorithm is being implemented?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Selection Sort</p></li><li><p>Insertion Sort<br></p></li><li><p>Merge Sort</p></li><li><p>Quick Sort</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Insertion Sort<br></p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q29</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>A developer chooses Insertion Sort in C++ for a dataset that is almost sorted with only a few misplaced elements. Why is this algorithm suitable in this case?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>It uses divide and conquer</p></li><li><p>It performs efficiently on nearly sorted data</p></li><li><p>It requires extra memory</p></li><li><p>It avoids comparisons</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>It performs efficiently on nearly sorted data</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q30</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a C++ implementation of Insertion Sort, if the input array is already sorted, how does the algorithm perform in terms of time complexity?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(n²)</p></li><li><p>O(n log n)</p></li><li><p>O(n)</p></li><li><p>O(log n)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(n)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q31</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>A programmer observes that Selection Sort does not maintain the relative order of duplicate elements in a C++ program. Which property is missing in this algorithm?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Stability</p></li><li><p>In place</p></li><li><p>Recursive</p></li><li><p style="text-align: left;">Divide &amp; Conquer</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Stability</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q32</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>A C++ program sorts an array by repeatedly selecting the smallest element from the unsorted portion and placing it at the beginning. Which sorting algorithm is described in this situation?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Bubble Sort</p><p></p></li><li><p>Selection Sort<br></p><p></p></li><li><p>Quick Sort</p></li><li><p>Insertion Sort</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Selection Sort<br></p><p></p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q33</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Time complexity of Selection Sort (all cases)?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(n)<br></p></li><li><p>O(n log n)<br></p></li><li><p>O(n²)<br></p></li><li><p>O(log n)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(n²)<br></p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q34</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Bubble Sort is based on which concept?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Divide and Conquer</p></li><li><p>Comparing adjacent elements</p></li><li><p>Hashing</p></li><li><p>Recursion</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Comparing adjacent elements</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q35</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Bubble Sort is which type of sorting?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Stable</p></li><li><p>Unstable</p></li><li><p style="text-align: left;">Non-comparison</p></li><li><p style="text-align: left;">Randomized</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Stable</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q36</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">sorting</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Number of passes required for Bubble Sort for n elements?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>n-1</p></li><li><p>n</p></li><li><p>n<sup>2</sup></p></li><li><p>log n</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>n-1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q37</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Balanced Leaves Riddle</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a strictly binary tree (full binary tree) with <strong>n</strong> leaf nodes, what is the total number of nodes in the tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>n²</p></li><li><p>2n</p></li><li><p>2n − 1</p></li><li><p>2ⁿ − 1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2n − 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q38</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Order from Within</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which traversal of a Binary Search Tree (BST) produces the elements in non-decreasing sorted order?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Preorder</p></li><li><p>Postorder</p></li><li><p>Level Order</p></li><li><p>Inorder</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Inorder</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q39</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tallest Shape Scenario</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the maximum height of a binary tree with N nodes?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>N/2</p></li><li><p>N − 1</p></li><li><p>log₂(N)</p></li><li><p>2N</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>N − 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q40</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Array Mapping Mystery</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a complete binary tree, if a node is at index i (using 1-based indexing in an array), what is the index of its right child?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>2i − 1</p></li><li><p>i + 2</p></li><li><p>2i + 1</p></li><li><p>2i</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2i + 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q41</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hidden Pointer Pathways</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which of the following is true about a threaded binary tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>It facilitates traversal without using a stack or recursion.</p></li><li><p>It must always be a balanced AVL tree.</p></li><li><p>It doubles the memory required for each node.</p></li><li><p>It&nbsp;always&nbsp;improves&nbsp;the&nbsp;search&nbsp;time&nbsp;complexity&nbsp;of&nbsp;a&nbsp;BST.​ </p><p></p><p></p><p></p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>It facilitates traversal without using a stack or recursion.</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q42</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Recursive Visit Pattern</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output of the following C++ snippet?</p><pre><code>void func(Node* r) {
+  if(!r) return;
+  func(r-&gt;left);
+  cout &lt;&lt; r-&gt;data &lt;&lt; " ";
+  func(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Post-order Traversal</p></li><li><p>Pre-order Traversal</p></li><li><p>In-order Traversal</p></li><li><p>Reverse In-order</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>In-order Traversal</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q43</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Recursive Accumulation Insight</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this function return for a binary tree root?</p><pre><code>int solve(Node* r) {
+  if(!r) return 0;
+  return 1 + solve(r-&gt;left) + solve(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Number of leaf nodes</p></li><li><p>The sum of all node values</p></li><li><p>The height of the tree</p></li><li><p>Total number of nodes</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Total number of nodes</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q44</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Terminal Node Tracker</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the behavior of this recursive snippet?</p><pre><code>int mystery(Node* r) {
+  if(!r) return 0;
+  if(!r-&gt;left &amp;&amp; !r-&gt;right) return 1;
+  return mystery(r-&gt;left) + mystery(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Counts total nodes</p></li><li><p>Finds the max depth</p></li><li><p>Counts leaf nodes</p></li><li><p>Counts internal nodes</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Counts leaf nodes</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q45</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Self Loop Detection</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>vector&lt;int&gt; adj[3];
+adj[1].push_back(1);
+cout &lt;&lt; (adj[1][0] == 1);</code></pre><p>What is printed?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>1</p></li><li><p style="text-align: left;">0</p></li><li><p>Error</p></li><li><p>Undefined</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q46</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Undirected Count Illusion</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>int g[3][3]={{0,1,0},{1,0,1},{0,1,0}};
+int c=0;
+for(int i=0;i&lt;3;i++)
+ for(int j=0;j&lt;3;j++)
+  if(g[i][j]) c++;
+cout&lt;&lt;c/2;</code></pre><p>What is printed?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>4</p></li><li><p>3</p></li><li><p>2</p></li><li><p>1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q47</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Weighted Pair Access</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>vector&lt;pair&lt;int,int&gt;&gt; adj[3];
+adj[1].push_back({2,8});
+cout &lt;&lt; adj[1][0].first * adj[1][0].second;</code></pre><p>What is printed?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>2</p></li><li><p>16</p></li><li><p>10</p></li><li><p>8</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>16</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q48</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Counting Edges in a Representation</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In an undirected weighted graph with 5 vertices and 4 edges stored in an adjacency matrix, how many cells contain a non-zero value?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>4</p></li><li><p>5</p></li><li><p>20</p></li><li><p>8</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>8</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q49</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Empty Vector Mystery</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>vector&lt;pair&lt;int,int&gt;&gt; adj[4];
+adj[0].push_back({3, 7});
+adj[3].push_back({0, 7});
+cout &lt;&lt; adj[1].empty() &lt;&lt; " " &lt;&lt; adj[2].empty();</code></pre><p>What will be the output?</p><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>0 0</p></li><li><p>1 0</p></li><li><p>0 1</p></li><li><p>1 1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>1 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q50</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Degree in Directed Graph</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>vector&lt;pair&lt;int,int&gt;&gt; adj[4];
+adj[0].push_back({1,3}); adj[0].push_back({2,7});
+adj[1].push_back({3,2}); adj[2].push_back({3,1});
+cout &lt;&lt; adj[0].size() + adj[3].size();</code></pre><p>What is the output?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>2</p></li><li><p>4</p></li><li><p>3</p></li><li><p>1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q51</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Subtle Matrix Overwrite</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>int adj[3][3] = {};
+adj[0][1] = 5; adj[0][1] = 3;
+adj[1][0] = 5;
+cout &lt;&lt; adj[0][1] + adj[1][0];</code></pre><p>What is the output?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>10</p></li><li><p>16</p></li><li><p>8</p></li><li><p>6</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>8</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q52</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Outgoing Edge Count</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>vector&lt;pair&lt;int,int&gt;&gt; adj[4];
+adj[0].push_back({1, 3});
+adj[2].push_back({1, 6});
+cout &lt;&lt; adj[1].size();</code></pre><p>What will be the output?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>2</p></li><li><p>1</p></li><li><p>6</p></li><li><p>0</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>0</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q53</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Weight Storage Logic</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>vector&lt;pair&lt;int,int&gt;&gt; adj[4];
+adj[2].push_back({3, 7});</code></pre><p>What is stored?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Edge 2 → 3 weight 7</p></li><li><p>Edge 3 → 2 weight 7</p></li><li><p>Edge weight 2</p></li><li><p>Undirected edge</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Edge 2 → 3 weight 7</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q54</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Radix Sort Dependency</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Radix sort relies fundamentally on which other sorting principle or algorithm component to sort elements at each digit/position efficiently?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>A comparison-based sort </p></li><li><p>A stable linear time sort</p></li><li><p>Recursion and partitioning</p></li><li><p>The Sieve of Eratosthenes principle</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>A stable linear time sort</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q55</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Stability Definition Check</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the precise definition of a <strong>"stable" </strong>sorting algorithm?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>It consistently finishes in O(N log N) time regardless of input data.</p></li><li><p>It uses a fixed amount of memory (O(1) extra space).</p></li><li><p>It maintains the relative order of elements that have equal values.</p></li><li><p>It guarantees that the sorted output array is exactly identical to the input array if the input was already sorted.</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>It maintains the relative order of elements that have equal values.</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q56</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Radix Sort Base Confusion</h2>
+
+                    <div style="font-size: 12pt;">
+                        <pre><code>void radixSort(int arr[], int n) {
+    int maxVal = *max_element(arr, arr+n);
+    for(int exp = 1; maxVal/exp &gt; 0; exp *= 10)
+        countingSortByDigit(arr, n, exp);
+}</code></pre><p>If the maximum value in the array is <strong>999</strong>, how many passes does radix sort make?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>10</p></li><li><p>3</p></li><li><p>999</p></li><li><p>9</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>3</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q57</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Heap Index Formula</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What representation is this heap using?</p><pre><code>int left = 2 * i + 1;
+int right = 2 * i + 2;</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p style="text-align: left;">1-based indexing</p></li><li><p>Pointer-based heap</p></li><li><p>0-based array heap</p></li><li><p>Linked list heap</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>0-based array heap</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q58</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Heapify Direction</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Why does heapify start from n/2 - 1?</p><pre><code>for(int i = n/2 - 1; i &gt;= 0; i--)
+    heapify(arr, n, i);</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Last non-leaf node</p></li><li><p>Root index</p></li><li><p>First leaf node</p></li><li><p>Middle element</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Last non-leaf node</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q59</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Equal Priority Elements</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>If two elements have the same priority, which is removed first?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Larger value</p></li><li><p>Smaller value</p></li><li><p>Depends on implementation</p></li><li><p>Always newest</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Depends on implementation</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q60</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Priority Queue Implementation</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which data structure is commonly used to implement a priority queue?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Stack</p></li><li><p>Array</p></li><li><p>Linked List</p></li><li><p>Heap</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Heap</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q61</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this C++ snippet calculate?</p><pre><code>int countProbes(int k, int table[], int m) {
+    int i = 0;
+    while(table[(k%m + i)%m] != -1 &amp;&amp; table[(k%m + i)%m] != k) 
+        i++;
+    return i + 1;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>The total number of elements in the table</p></li><li><p>The index where k is stored</p></li><li><p>The value of the hash function</p></li><li><p>The number of probes to find k or an empty slot</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The number of probes to find k or an empty slot</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q62</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the primary motivation for using a <strong>prime number</strong> for the table size m in Hashing?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>It is required by the C++ standard</p></li><li><p style="text-align: left;">Primes take up less memory</p></li><li><p>Primes make the modulo operation faster</p></li><li><p>To reduce collisions by ensuring better distribution</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>To reduce collisions by ensuring better distribution</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q63</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>If m=11 and h(k)=k % m, for which k will Quadratic Probing i^2 and i Linear Probing produce the same first two probe indices (i=0, i=1)?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Only for k = 0</p></li><li><p>Only for prime k</p></li><li><p>Never</p></li><li><p>For any value of k</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>For any value of k</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q64</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Analyze this C++ code. What is the value of <strong>table[3] </strong>after execution?</p><pre><code>int m = 5, table[5] = {-1, -1, -1, -1, -1};
+for(int k : {3, 8, 13}) {
+    int i = 0;
+    while(table[(k%m + i)%m] != -1) i++;
+    table[(k%m + i)%m] = k;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>-1</p></li><li><p>8</p></li><li><p>3</p></li><li><p>13</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>3</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q65</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What will be the load factor<strong> α</strong> if you insert 12 elements into a hash table of size 20?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>8</p></li><li><p>1.66</p></li><li><p>0.6</p></li><li><p>0.12</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>0.6</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q66</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In C++, the <strong>std::unordered_map</strong> typically uses which collision resolution technique?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Linear Probing</p></li><li><p>Quadratic Probing</p></li><li><p>Double Hashing</p></li><li><p>Chaining</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Chaining</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q67</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is a major disadvantage of Double Hashing compared to Chaining?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>It has worse cache performance</p></li><li><p>It requires more pointers</p></li><li><p>Search is always O(N)</p></li><li><p>The table can become full</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The table can become full</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q68</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the probe sequence for k=5, m=10 using Quadratic Probing h(k, i)=(k+i^2)%m?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>5, 6, 7, 8...</p></li><li><p>5, 6, 9, 4...</p></li><li><p>5, 7, 11, 15...</p></li><li><p>5, 10, 15, 20...</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>5, 6, 9, 4...</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q69</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which issue is this C++ class trying to solve by using a <strong>DELETED</strong> marker?</p><pre><code>enum Status { EMPTY, OCCUPIED, DELETED };
+struct Slot { int key; Status state; };</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Primary Clustering</p></li><li><p>Premature search termination during Open Addressing</p></li><li><p>Infinite loops in insert</p></li><li><p>Memory Fragmentation</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Premature search termination during Open Addressing</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q70</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the result of the following C++ snippet?</p><pre><code>int m = 10, k = 25;
+int h1 = k % m;
+int h2 = 7 - (k % 7);
+cout &lt;&lt; (h1 + 1 * h2) % m;</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>2</p></li><li><p>5</p></li><li><p>8</p></li><li><p>3</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>8</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q71</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>How many probes (including the first) are needed to insert 18 in this table [11, 25, 32, -1, -1] using Linear Probing (m=5, h(k)=k%5)?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>1</p></li><li><p>2</p></li><li><p>3</p></li><li><p>4</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q72</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What happens in the following C++ logic if h2(k) returns 0?</p><pre><code>int doubleHash(int k, int i, int m) {
+    return (h1(k) + i * h2(k)) % m;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>A Division by Zero error occurs</p></li><li><p>The probe sequence skips 1 slot</p></li><li><p>The compiler throws a warning</p></li><li><p>It results in an infinite loop on the same index</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>It results in an infinite loop on the same index</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q73</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Consider this quadratic probing snippet. What index is returned for k = 10, i = 2, m = 10?</p><pre><code>int qp(int k, int i, int m) {
+    return (k % m + i * i) % m;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>2</p></li><li><p>0</p></li><li><p>4</p></li><li><p>14</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>4</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q74</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output of this C++ code snippet?</p><pre><code>int h(int k, int i, int m) { return (k % m + i) % m; }
+int table[7] = {0}, m = 7;
+table[h(15, 0, m)] = 15; 
+table[h(22, 0, m)] = 22;
+cout &lt;&lt; h(22, 1, m);</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>0</p></li><li><p>2</p></li><li><p>1</p></li><li><p>15</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q75</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Hashing</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In Double Hashing, if h2(k) is the second hash function, why is it critical that h2(k) is relatively prime to the table size m?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>To reduce the load factor</p></li><li><p>To make the hash function faster</p></li><li><p>To allow for easier deletion</p></li><li><p>To ensure h2(k) never returns 0</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>To ensure h2(k) never returns 0</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q76</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What happens in this specific traversal variant?</p><pre><code>void t(Node* r) {
+  if(!r || !r-&gt;left) return;
+  swap(r-&gt;data, r-&gt;left-&gt;data);
+  t(r-&gt;left);
+  t(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Propagates root value down the left spine</p></li><li><p>Standard Pre-order</p></li><li><p>Infinite loop</p></li><li><p>Mirrors the tree</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Propagates root value down the left spine</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q77</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which traversal pattern is being modified here?</p><pre><code>void visit(Node* r) {
+  if(!r) return;
+  if(r-&gt;data % 2 == 0) visit(r-&gt;left);
+  cout &lt;&lt; r-&gt;data &lt;&lt; " ";
+  if(r-&gt;data % 2 != 0) visit(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Standard In-order</p></li><li><p>Conditional In-order</p></li><li><p>Pre-order Search</p></li><li><p>Binary Search Tree Search</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Conditional In-order</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q78</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output for a tree where Root is 10, Left is 4, and Right is 6?</p><pre><code>int calc(Node* r) {
+  if(!r) return 0;
+  int s = calc(r-&gt;left) + calc(r-&gt;right);
+  if(s == 0) return r-&gt;data;
+  cout &lt;&lt; r-&gt;data &lt;&lt; " ";
+  return s + r-&gt;data;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>20</p></li><li><p>10</p></li><li><p>4 6</p></li><li><p>4 6 10</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>10</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q79</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is printed for a tree with Root 10, Left 5, Right 15?</p><pre><code>void t(Node* r, int p) {
+  if(!r) return;
+  if(r-&gt;data &gt; p) cout &lt;&lt; r-&gt;data &lt;&lt; " ";
+  t(r-&gt;left, r-&gt;data);
+  t(r-&gt;right, r-&gt;data);
+}
+// Initial call: t(root, -1)</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>10 5 15</p></li><li><p>10 5</p></li><li><p>15</p></li><li><p>10 15</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>10 15</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q80</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>How many times is <strong>cout</strong> executed for a tree with N nodes?</p><pre><code>void t(Node* r) {
+  if(!r) { cout &lt;&lt; "X"; return; }
+  t(r-&gt;left); 
+  t(r-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>N</p></li><li><p>N + 1</p></li><li><p>2N</p></li><li><p>2N + 1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>N + 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q81</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is printed if root data is 10 and it has no children?</p><pre><code>void t(Node* r) {
+  if(!r) return;
+  t(r-&gt;left);
+  t(r-&gt;right);
+  if(r-&gt;data &gt; 5) cout &lt;&lt; r-&gt;data;
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>10 10</p></li><li><p>10</p></li><li><p>Nothing</p></li><li><p>5</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>10</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q82</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which traversal is represented here?</p><pre><code>stack&lt;Node*&gt; s; 
+s.push(root);
+while(!s.empty()) {
+  Node* c = s.top(); s.pop();
+  cout &lt;&lt; c-&gt;data &lt;&lt; " ";
+  if(c-&gt;right) s.push(c-&gt;right);
+  if(c-&gt;left) s.push(c-&gt;left);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Level-order</p></li><li><p>Post-order</p></li><li><p>Pre-order</p></li><li><p>In-order</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Pre-order</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q83</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the output for a tree with root 1, left child 2, right child 3?</p><pre><code>void t(Node* r) {
+  if(!r) return;
+  t(r-&gt;left); t(r-&gt;right);
+  cout &lt;&lt; r-&gt;data &lt;&lt; " ";
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>1 2 3</p></li><li><p>2 3 1</p></li><li><p>2 1 3</p></li><li><p>3 2 1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2 3 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q84</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a Post-order traversal, which node is always the very last to be visited?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>The Root node</p></li><li><p>The leftmost leaf</p></li><li><p>The node with the maximum value</p></li><li><p>The rightmost leaf</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The Root node</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q85</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Tree traversal</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which data structure is most commonly used to implement Level-order traversal iteratively?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Priority Queue</p></li><li><p>Stack</p></li><li><p>Queue</p></li><li><p>Linked List</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Queue</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q86</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which of the following is NOT a property of a Red-Black Tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Every node is either red or black</p></li><li><p>The root is always black</p></li><li><p>All leaves (NULL nodes) are black</p></li><li><p>Every red node must have two black children</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Every red node must have two black children</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q87</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a Red-Black Tree, what is the maximum height of a tree with n nodes?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>log₂(n)</p></li><li><p style="text-align: left;">2 × log₂(n)</p></li><li><p>n</p></li><li><p>n/2</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p style="text-align: left;">2 × log₂(n)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q88</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the primary purpose of coloring nodes red or black in a Red-Black Tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>To reduce memory usage</p></li><li><p>To speed up searching</p></li><li><p>To maintain balanced height</p></li><li><p>To simplify insertion code</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>To maintain balanced height</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q89</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">AVL tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Trace the code: What node becomes root after <strong>rotateRight(10)</strong> where 10's left is 5, and 5's right is 7?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>5</p></li><li><p>7</p></li><li><p>NULL</p></li><li><p>10</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>5</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q90</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">AVL tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this C++ snippet check?</p><pre><code>if (bf &lt; -1 &amp;&amp; getB(n-&gt;right) &gt; 0)</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>LR case</p></li><li><p>RR case</p></li><li><p>LL case</p></li><li><p>RL case</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>RL case</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q91</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">AVL tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>If a node has a balance factor of -2 and its right child has a balance factor of 1, which rotation sequence is needed?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Right-Left (RL) Rotation</p></li><li><p>Single Left Rotation</p></li><li><p>Single Right Rotation</p></li><li><p>Left-Right (LR) Rotation</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Right-Left (RL) Rotation</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q92</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Heap</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the time complexity to build a heap from an unordered array of N elements using the bottom-up heapify method?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(NlogN)</p></li><li><p>O(N²)</p></li><li><p>O(N)</p></li><li><p>O(logN)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(N)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q93</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Heap</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>In a Max-Heap represented by an array (1-based indexing), if a node is at index i, what is the index of its right child?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>i/2</p></li><li><p>2i</p></li><li><p>2i + 1</p></li><li><p>2i − 1</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>2i + 1</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q94</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Heap</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which operation is performed immediately after the root element is removed from a Max-Heap?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>The root is replaced by the last element in the array</p></li><li><p>The tree is re-scanned for the next maximum</p></li><li><p>The children of the root are swapped</p></li><li><p>The root is replaced by its left child</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The root is replaced by the last element in the array</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q95</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">AVL tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What does this C++ snippet calculate?</p><pre><code>int getB(Node* n) {
+  if (!n) return 0;
+  return height(n-&gt;left) - height(n-&gt;right);
+}</code></pre><p></p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>The balance factor</p></li><li><p>The total height</p></li><li><p style="text-align: left;">The node's value</p></li><li><p>The leaf count</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>The balance factor</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q96</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the time complexity of insertion in a Red-Black Tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>O(n)</p></li><li><p>O(n log n)</p></li><li><p>O(log n)</p></li><li><p>O(1)</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>O(log n)</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q97</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which traversal will display the sorted order of elements stored in a Red-Black Tree?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p style="text-align: left;">Preorder</p></li><li><p>Postorder</p></li><li><p>Level order</p></li><li><p>Inorder</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Inorder</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q98</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which rotation is commonly used during Red-Black Tree insertion fixing in C++?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Left and Right rotations</p></li><li><p style="text-align: left;">Single rotation only</p></li><li><p>Double rotation only</p></li><li><p>Circular rotation</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Left and Right rotations</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q99</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">Red Black Tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>Which case during insertion requires a Left-Right or Right-Left rotation?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>Parent and uncle are red</p></li><li><p>Node is an inner child</p></li><li><p>Node is root</p></li><li><p>Node is a leaf</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>Node is an inner child</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+                <div class="question-container">
+                    <div class="header-badges">
+                        <span>Q100</span>
+                        <span class="complexity-Medium">Medium</span>
+                        <span style="background-color: #eff6ff; color: #1d4ed8;">MCQ</span>
+                    </div>
+
+                    <h2 style="font-size: 16pt; margin-top: 10px; margin-bottom: 10px;">AVL tree</h2>
+
+                    <div style="font-size: 12pt;">
+                        <p>What is the minimum number of nodes in an AVL tree of height 3 (where root is height 0)?</p>
+                    </div>
+
+                    
+                    <div style="margin-top: 10px;">
+                        <h3>Options:</h3>
+                        <ul>
+                            <li><p>4</p></li><li><p>15</p></li><li><p>7</p></li><li><p>8</p></li>
+                        </ul>
+                    </div><div style="margin-top: 10px; font-weight: bold; color: #15803d;">Correct Answer: <p>7</p></div>
+
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ccc;" />
+                </div>
+            
+            </div>
+        </body></html>
